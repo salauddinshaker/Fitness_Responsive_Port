@@ -1,4 +1,40 @@
 body{
-    margin:0;
+    margin:0px;
     padding:0;
+}
+/* Header section/ navbar */
+.nav-backgground{
+    background-color:#191919;
+}
+.header-nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav h2{
+    padding-left: 100px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+}
+.navbar-btn ul{
+    display: flex;
+   margin-top: 20px;
+   color: White;
+   border: 1px solid #222729;
+   border-radius: 10px;
+}
+.navbar-btn ul li{
+    list-style: none;
+    margin-left: 15px;
+
+}
+.nav-facility{
+    border-radius: 15px;
+    padding: 6px 12px;
+}
+.btn1{
+    background-color: #E6533C;
 }
